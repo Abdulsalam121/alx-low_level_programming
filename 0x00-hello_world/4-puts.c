@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main: prints phrase
  *
  * return 0 if properly exited
