@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/**
+/*
  * main prints phrase with 
  * proper grammar but looks 
  * like an art piece
