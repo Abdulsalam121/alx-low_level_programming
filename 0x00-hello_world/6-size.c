@@ -3,7 +3,7 @@
 /**
  * main -size of types
  *
- * Return - (Sucess) on exit
+ * Return: Always (Sucess)
  */
 int main(void)
 {
