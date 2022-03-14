@@ -2,7 +2,8 @@
 
 /**
  * main -size of types
- * Return - 0 on exit
+ *
+ * Return - (Sucess) on exit
  */
 
 int main(void)
