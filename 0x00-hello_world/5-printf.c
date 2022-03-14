@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main prints phrase with
+ * main - prints phrase with
  * proper grammar but looks
  * like an art piece
+ * Return: Always (Success)
  */
 int main(void)
 {

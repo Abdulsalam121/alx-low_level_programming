@@ -5,7 +5,6 @@
  *
  * Return - (Sucess) on exit
  */
-
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
