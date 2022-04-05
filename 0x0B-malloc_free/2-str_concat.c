@@ -40,22 +40,19 @@ char *str_concat(char *s1, char *s2)
 
 	size1 = _strlen(s1);
 	size2 = _strlen(s2);
-	totSize = (size1 + size2)+1;
-	ar = malloc(totSize *sizeof(char));
+	totSize = (size1 + size2) + 1;
+	ar = malloc(totSize * sizeof(char));
 
 	if (ar == NULL)
-		return (NULL);
-	else
-	{
-		for (i = 0; i < size1; i++)
-			ar[i] = s1[i];
+		return (NULL)
+	for (i = 0; i < size1; i++)
+		ar[i] = s1[i];
 
-		for (j = 0; j < size2; j++)
-		{
-			ar[i] = s2[j];
-			i++;
-		}
-		ar[i + 1] = '\0';
-		return (ar);
+	for (j = 0; j < size2; j++)
+	{
+		ar[i] = s2[j];
+		i++;
 	}
+	ar[i + 1] = '\0';
+	return (ar);
 }
