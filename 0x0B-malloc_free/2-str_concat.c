@@ -44,7 +44,7 @@ char *str_concat(char *s1, char *s2)
 	ar = malloc(totSize * sizeof(char));
 
 	if (ar == NULL)
-		return (NULL)
+		return (NULL);
 	for (i = 0; i < size1; i++)
 		ar[i] = s1[i];
 
